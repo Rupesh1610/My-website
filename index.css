@@ -1,27 +1,132 @@
+/*...navbar....*/
+
+.mybrand{
+	font-family: "montserrat";
+	font-size: 2rem;
+}
+#navbar
+{
+	background-color:#F3C892;
+}
+
+/*....title....*/
+
 #title
 {
 	background-color:#F3C892;
 }
 
-#detail
+h3
 {
-	background-color:#F3C892;
-	height: 350px;
+	color: cornflowerblue;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
-.me
-{
-	margin-top: 80px;
+
+img{
+	margin-top: 150px;
 }
-.hi
+
+/*...About...*/
+
+#about{
+	background-color: #92806b;
+}
+.about{
+	display: inline;
+	width: 300px;
+}
+
+.about-heading{
+	margin-top: 0;
+	padding-top: 40px;
+}
+
+
+.myimage
 {
+	height: 90px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+
+/*....hobbies....*/
+
+p{
+	padding-bottom: 2rem;
+	margin-bottom: 0;
+	font-family: 'pushster';
+	font-weight: bold;
+	line-height: 2;
+}
+
+.hobbies-heading{
+	padding-top: 50px;
+	margin: 0 auto 0;
+	font-family: 'montserrat';
+}
+
+.hobby-image{
+	width: 250px;
+	padding-bottom: 30px;
+}
+
+#hobbies{
+	background-color: #CDDEFF;
+}
+
+/*....Work....*/
+
+#work-id{
 	color: cornflowerblue;
 }
 
 #work
 {
-     background-color: #D6E5FA;
+     background-color: #A3DA8D;
 }
 
-#list{
-	height: 12rem;
+.work-heading{
+    font-family: 'montserrat';
+	padding-top: 60px;
+	margin-top: 0px;
+}
+
+.work-image{
+	width: 200px;
+	margin: 20px auto 30px;
+}
+
+/*....social...*/
+
+#social{
+	background-color: #CFFFDC;
+}
+
+.envelope{
+	padding-bottom: 50px;
+	color: #EF2F88;
+}
+
+.envelope:hover{
+	color: crimson;
+}
+.social-heading{
+	margin-top: 0;
+	padding-top: 30px;
+}
+
+/*....footer...*/
+
+#footer{
+	background-color: rgb(83, 72, 72);
+}
+
+h6{
+	color: #fff;
+	font-size: 0.75rem;
+	margin-bottom: 0px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
