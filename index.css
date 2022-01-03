@@ -27,30 +27,6 @@ img{
 	margin-top: 150px;
 }
 
-/*...About...*/
-
-#about{
-	background-color: #92806b;
-}
-.about{
-	display: inline;
-	width: 300px;
-}
-
-.about-heading{
-	margin-top: 0;
-	padding-top: 40px;
-}
-
-
-.myimage
-{
-	height: 90px;
-	margin-top: 0px;
-	margin-bottom: 40px;
-}
-
-
 /*....hobbies....*/
 
 p{
@@ -68,7 +44,7 @@ p{
 }
 
 .hobby-image{
-	width: 250px;
+	width: 200px;
 	padding-bottom: 30px;
 }
 
@@ -105,17 +81,61 @@ p{
 }
 
 .envelope{
-	padding-bottom: 50px;
 	color: #EF2F88;
 }
 
 .envelope:hover{
 	color: crimson;
 }
+
+.social-image{
+	width: 100px;
+	padding-bottom: 40px;
+	margin-top: 60px;
+}
+
+.pointer{
+	width: 40px;
+	padding-bottom: 10px;
+	display: block;
+	margin-top: 20px;
+}
+
+.click{
+	padding-bottom: 100px;
+	font-family: "montserrat";
+}
+
 .social-heading{
 	margin-top: 0;
-	padding-top: 30px;
+	padding-top: 60px;
 }
+/*...About...*/
+
+#about{
+	background-color: #92806b;
+}
+
+.about{
+	display: inline;
+	width: 300px;
+}
+
+.about-heading{
+	margin-top: 0;
+	padding-top: 40px;
+}
+
+.about-para{
+	width: 70%;
+}
+.myimage
+{
+	height: 90px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
 
 /*....footer...*/
 
