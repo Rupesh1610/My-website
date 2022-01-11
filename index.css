@@ -1,12 +1,16 @@
-/*...navbar....*/
 
-.mybrand{
-	font-family: "montserrat";
-	font-size: 2rem;
+/*...navbar....*/
+#navbar img{
+	margin-top: 0;
 }
+
 #navbar
 {
 	background-color:#F3C892;
+}
+
+.compress{
+	padding: 0 50px;
 }
 
 /*....title....*/
@@ -27,29 +31,72 @@ img{
 	margin-top: 150px;
 }
 
-/*....hobbies....*/
+/*..1.hobbies....*/
 
 p{
 	padding-bottom: 2rem;
 	margin-bottom: 0;
-	font-family: 'pushster';
+	font-family: 'montserrat';
 	font-weight: bold;
 	line-height: 2;
 }
 
 .hobbies-heading{
 	padding-top: 50px;
+	padding-bottom: 3rem;
 	margin: 0 auto 0;
 	font-family: 'montserrat';
 }
 
-.hobby-image{
-	width: 200px;
-	padding-bottom: 30px;
-}
 
 #hobbies{
 	background-color: #CDDEFF;
+}
+
+#hobbies p{
+	margin-top: 2rem;
+}
+
+/* myclock */
+
+#clockcontainer{
+    position: relative;
+    height: 20vw;
+    width: 20vw;
+	background-color: #CDDEFF;
+    background: url(clock-image.png) no-repeat center;
+    background-size: 81%;
+    margin: auto;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background-color: black;
+    transform-origin: bottom;
+}
+
+#hour{
+    height: 19%;
+    width: 2.4%;
+    left: 49%;
+    top: 36.4%;
+    border-radius: 0.8rem;
+}
+
+#minute{
+    height: 22%;
+    width: 2%;
+    left: 49.3%;
+    top: 33.4%;
+    border-radius: 0.8rem;
+}
+#second{
+    height: 24%;
+    width: 1%;
+    left: 49.9%;
+    top: 31.3%;
+    border-radius: 0.2rem;
+    
 }
 
 /*....Work....*/
