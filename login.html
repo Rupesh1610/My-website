@@ -10,7 +10,19 @@
     <title>Login</title>
 </head>
 <body>
-    <label for="">Name</label>
-    <input type="text" name="Name">
+    <div class="box">
+        <div class="form-container">
+             <div class="button-box">
+                <h2>Log In</h2>
+             </div>
+             <form action="index.php" method="post" id="signup" class="input-group">
+                <input name="email" class="input" type="email" placeholder="Email Id" required>
+                <input name="pass" class="input" type="password" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>Remember me</span>
+                <button name="save" type="submit" class="submit-btn">Log In</button>
+             </form>
+             <p>Don't have account<a href="sign-up.html"> Sign Up</a></p>
+        </div>
+    </div>
 </body>
 </html>
