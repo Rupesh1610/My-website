@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="sign-up.css">
+
+    <title>Sign-up</title>
+</head>
+<body>
+<div class="box">
+    <div class="form-container">
+         <div class="button-box">
+            <h2>Sign Up</h2>
+         </div>
+         <form action="index.php" method="post" id="signup" class="input-group">
+            <input name="fullname" class="input" type="text" placeholder="Enter Name" required>
+            <input name="email" class="input" type="email" placeholder="Email Id" required>
+            <input name="password" class="input" type="password" placeholder="Password" required>
+            <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+            <button name="save" type="submit" class="submit-btn">Sign Up</button>
+         </form>
+         <p>Already have account<a href="login.html"> Log In</a></p>
+    </div>
+</div>
+
+</body>
+</html>
