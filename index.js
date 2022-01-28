@@ -12,3 +12,12 @@ setInterval(() => {
     document.getElementById("minute").style.transform= `rotate(${mrotation}deg)`;
     document.getElementById("second").style.transform= `rotate(${srotation}deg)`;
 }, 1000);
+
+var time = new Date();
+var h=time.getHours();
+if(h<12)
+   document.querySelector("#title h3").innerHTML="Good morning!";
+else if(h<18)
+   document.querySelector("#title h3").innerHTML="Good Afternoon!";
+else
+   document.querySelector("#title h3").innerHTML="Good Evening!";
