@@ -157,6 +157,49 @@ p{
 	margin-top: 0;
 	padding-top: 60px;
 }
+
+/*projects*/
+
+#project{
+	background-color: black;
+}
+
+#project h2{
+	text-align: center;
+    color: white;
+    padding: 40px 0;
+}
+
+#project p{
+	color: tomato;
+	text-decoration: underline;
+}
+
+.project{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 2rem;
+}
+
+#project a{
+	margin:10px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	background:transparent;
+	padding: 1px 10px;
+	border-radius: 10px;
+	border:1px solid yellow;
+}
+
+#project a:hover{
+	background-color: white;
+	color: black;
+	transition: 0.5s ease;
+}
+
 /*...About...*/
 
 #about{
