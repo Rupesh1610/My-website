@@ -21,3 +21,14 @@ else if(h<18)
    document.querySelector("#title h3").innerHTML="Good Afternoon!";
 else
    document.querySelector("#title h3").innerHTML="Good Evening!";
+
+const h3=document.getElementById("wish");
+var count=1;
+setInterval(function(){
+  h3.setAttribute("class", "wish"+count);
+  if(count===3){
+    count=1;
+  }else{
+    count++;
+  }
+}, 1000);
