@@ -20,11 +20,24 @@
 	background-color:#F3C892;
 }
 
-h3
-{
-	color: cornflowerblue;
+.wish1{
+	color: green;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.wish2{
+	color: yellow;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-family: 'Mochiy Pop P One', sans-serif;
+}
+.wish3{
+	color: tomato;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 img{
